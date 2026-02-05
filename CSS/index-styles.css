@@ -137,3 +137,7 @@ body {
     background-color: rgb(255, 60, 92);
     cursor: pointer;
 }
+
+#bg-music {
+    display: none;
+}

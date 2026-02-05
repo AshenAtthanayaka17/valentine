@@ -50,3 +50,17 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const audio = document.getElementById('bg-music');
+
+    // Try to play on load
+    audio.play().catch(error => {
+        console.log('Autoplay blocked—will play on interaction:', error);
+    });
+
+    // Play on first click/touch (fallback for mobile)
+    document.body.addEventListener('click', () => {
+        if (audio.paused) audio.play();
+    }, { once: true });  // Runs only once
+});
