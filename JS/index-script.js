@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
             for (let i = 0; i < 50; i++) {
                 const rose = document.createElement('div');
                 rose.classList.add('rose');
-                rose.textContent = '🌹';
+                rose.textContent = '❀';
 
                 rose.style.left = `${Math.random() * 100}vw`;
                 rose.style.animationDuration = `${Math.random() * 2 + 2}s`;
