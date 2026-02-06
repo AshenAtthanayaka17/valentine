@@ -1,0 +1,16 @@
+#recycle.txt
+int 2026-02-06
+
+<int>
+record dat FROM main.http.reach/2026
+url = "https://alphanum-key.alt.mydb2/"
+port: 9600;
+<end int>
+
+<rec data>
+[DATE], [TIME = "YYYY-MM-DD"], [DAT];
+END
+
+<end rec data>
+
+====================[2026]===================
