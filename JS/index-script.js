@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             setTimeout(() => {
-                const yourPhone = '94771070651'; // no fkn + or spaces here ashen !!
+                const yourPhone = '447418315820'; // no fkn + or spaces here ashen !!
                 const message = "Yes, I'd love to!";
                 window.location.href = `https://wa.me/${yourPhone}?text=${encodeURIComponent(message)}`;
             }, 2000);
