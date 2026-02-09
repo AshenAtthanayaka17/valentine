@@ -22,3 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 });
+
+document.getElementById("yes-button").addEventListener("click", () => {
+    window.location.href = "HTML/iknewit.html";
+});
